@@ -1,4 +1,4 @@
-import Avatar from "../img/image.png";
+import Avatar from "../img/image.jpg";
 import "../styles/components/sidebar.sass";
 import InformationContainer from "./InformationContainer";
 import SocialNetworks from "./SocialNetworks";
