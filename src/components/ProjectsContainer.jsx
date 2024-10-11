@@ -1,19 +1,24 @@
+import projetos from "../img/projetos.png";
+import "../styles/components/ProjectsContainer.sass";
+
 const ProjectsContainer = () => {
   return (
     <section className="projetcs-container">
       <h2>Projetos</h2>
       <p>
-        Os projetos que desenvolvi até agora são voltados para aprender HTML,
-        CSS e JavaScript. Passos importantes no meu estudo de novas tecnologias
-        e atualmente tenho me dedicado ao React, um estudo ainda bem iniciante
-        da tecnologia.
+        Alguns projetos que desenvolvi utizando HTML, CSS, JavaScript, React e
+        Figma.
       </p>
-      <p>
-        Aqui, eu compartilho meu aprendizado, desafios e possibilidades nessa
-        nova fase profissional.
-      </p>
+
+      <div id="projetos">
+        <img
+          src={projetos}
+          alt="Imagem mostra projetos desenvolvidos em HTML, CSS, JavaScript, React e Figma"
+        />
+      </div>
+
       <a href="https://github.com/carolinedemoraes" className="btn">
-        Ver Projetos
+        Ver Mais Projetos no Github
       </a>
     </section>
   );

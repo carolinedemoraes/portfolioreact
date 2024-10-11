@@ -6,18 +6,17 @@ const InformationContainer = () => {
     <section id="information">
       <div className="info-card">
         <AiFillPhone id="phone-icon" />
-        <h3></h3>
-        <p>(53)98456-4996</p>
+        <p>+351 927 018 251</p>
       </div>
+
       <div className="info-card">
         <AiOutlineMail id="email-icon" />
-        <h3></h3>
         <p>caroliineedemoraes@gmail.com</p>
       </div>
+
       <div className="info-card">
         <AiFillEnvironment id="pin-icon" />
-        <h3></h3>
-        <p>Porto Alegre- RS</p>
+        <p>Porto, PT</p>
       </div>
     </section>
   );

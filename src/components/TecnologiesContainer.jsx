@@ -1,5 +1,5 @@
 import { DiHtml5, DiCss3, DiJsBadge, DiReact } from "react-icons/di";
-
+import { FaFigma, FaSass } from "react-icons/fa";
 import "../styles/components/tecnologiescontainer.sass";
 
 const tecnologies = [
@@ -7,6 +7,8 @@ const tecnologies = [
   { id: "css", name: "CSS3", icon: <DiCss3 /> },
   { id: "js", name: "JavaScript", icon: <DiJsBadge /> },
   { id: "react", name: "React", icon: <DiReact /> },
+  { id: "figma", name: "Figma", icon: <FaFigma /> },
+  { id: "sass", name: "SaSS", icon: <FaSass /> },
 ];
 
 const TecnologiesContainer = () => {
